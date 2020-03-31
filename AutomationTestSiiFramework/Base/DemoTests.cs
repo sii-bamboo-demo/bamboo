@@ -6,6 +6,7 @@ using NUnit.Framework;
 namespace BambooDemo.Base
 {
     // [AllureNUnit]
+    [TestClass]
     public class DemoTests 
     {
         [TestMethod]
