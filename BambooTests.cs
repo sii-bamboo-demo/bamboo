@@ -15,5 +15,11 @@ namespace BambooDemo
         {
             Assert.Pass();
         }
+
+        [Test]
+        public void ShouldFail()
+        {
+            Assert.Equals(1,2);
+        }
     }
 }
