@@ -19,7 +19,7 @@ namespace BambooDemo
         [Test]
         public void ShouldFail()
         {
-            Assert.Equals(1,2);
+            Assert.AreEqual(1,2);
         }
     }
 }
